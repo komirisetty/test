@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: nginx-1.19.3 #rollout failure test 
+        image: nginx:1.19.3 
         ports:
         - containerPort: 80
